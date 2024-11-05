@@ -46,11 +46,11 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => env('msdocs-laravel-mysql-xyz-server-007.mysql.database.azure.com', '127.0.0.1'),
+            'port' => env('3306', '3306'),
+            'database' => env('msdocs-laravel-mysql-xyz-database', 'forge'),
+            'username' => env('cfckzhgjkq', 'forge'),
+            'password' => env('LjZ$o1BkYlZ3yu0P', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -139,11 +139,11 @@ return [
 
         'cache' => [
             'url' => env('REDIS_URL'),
-            'host' => env('REDIS_HOST', '127.0.0.1'),
+            'host' => env('msdocs-laravel-mysql-xyz-cache.redis.cache.windows.net', '127.0.0.1'),
             'username' => env('REDIS_USERNAME'),
-            'password' => env('REDIS_PASSWORD'),
-            'port' => env('REDIS_PORT', '6379'),
-            'database' => env('REDIS_CACHE_DB', '1'),
+            'password' => env('CjuSbXATNfno3IYaenITWAlrZ3cgjjnTIAzCaCFW2B0='),
+            'port' => env('6380', '6379'),
+            'database' => env('0', '1'),
         ],
 
     ],
